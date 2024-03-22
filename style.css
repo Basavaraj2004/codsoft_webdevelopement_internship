@@ -1,0 +1,167 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    /*box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;*/
+}
+.navbar-links{
+    display: flex;
+    column-gap: 20px;
+}
+.navbar-links a{
+    text-decoration: none;
+    color: #1D232C;
+}
+.navbar-links a:hover{
+    text-decoration: underline;
+    color: #1D232C;
+}
+.navbar-menu-toggle{
+    display: none;
+}
+/*Header*/
+.header{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px;
+}
+.header-margin{
+    margin-top: 100px;
+    font-size: larger;
+}
+.header-button{
+    padding-left:20px ;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    background-color: #1D232C;
+    color: white;
+    cursor: pointer;
+}
+.name{
+    color: #1e365c;
+}
+/*Skills*/
+.Skills{
+    display: flex;
+    gap: 42px;
+    margin-top: 10px;
+    background-color: #1D232C;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    size: 100px;
+    justify-content: center;
+
+
+   
+    
+}
+.head{
+    align-items: center;
+    margin-left: 42%;
+}
+
+.sh1{
+   margin-left: 30%;
+}
+.sh2{
+   margin-left: 26%;
+}
+.sh3{
+   margin-left: 33%;
+}
+.sh4{
+   margin-left: 20%;
+}
+/*Projects*/
+.service{
+    padding: 20px;
+}
+.service-container-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 42%;
+    margin-top: 10px;
+}
+.service-container-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.service-container-2 div{
+    background-color: #f2f4f7;
+    border-radius: 5px;
+    padding: 10px;
+}
+/*Resume*/
+.r1{
+    align-items: center;
+    margin-left: 42%;
+    margin-top: 20px;
+}
+.R{
+    margin-top: 10px;
+    background-color: #1D232C;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    size: 100px;
+}
+.r2{
+    background-color:white;
+    color: #1D232C;
+    padding: 10px;
+    cursor: pointer;
+}
+/*contact*/
+.contact{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px;
+    
+}
+.contact1{
+    margin-left: 42%;
+}
+.contact2{
+   color: #1D232C;
+}
+.contact3{
+    display: flex;
+   color: #1D232C;
+   gap: 20px;
+}
+.mail{
+    color: #1D232C;
+}
+.ph{
+    color: #1D232C;
+}
+.c4{
+    color: #1D232C;
+    margin-left: 12%;
+}
+/*footer*/
+.footer{
+    margin-top: 20px;
+    padding: 40px;
+    background-color: #1D232C;
+    color: white;
+    
+     bottom: 0;
+     width: 100%;
+}
